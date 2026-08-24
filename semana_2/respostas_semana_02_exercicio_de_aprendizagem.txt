@@ -16,12 +16,12 @@
     “Oi”.
     >>> ___________ (“Oi”)
 
-    Resposta: print(“Oi”)
+    Resposta: print(“Oi”).
 
 4. Preencha os espaços em branco para sair “ni ni ni”.
     >>> _______ (‘ni ni ni’ ___
 
-    Resposta: print(‘ni ni ni’)
+    Resposta: print(‘ni ni ni’).
 
 5. Qual a saída do código abaixo?
     >>> 1 + 2 + 3
@@ -35,21 +35,21 @@
     b) 8
     c) 6
 
-    Resposta: A
+    Resposta: A.
 
 7. Complete o espaço em branco para o código ser
     correto.
     >>> ( ___ 5 - 1) * 3
     -18
 
-    Resposta: ( 12 - 5 - 1) * 3
+    Resposta: ( 12 - 5 - 1) * 3.
 
 8. Qual das opções abaixo causa um TypeError?
     a) >>> "(17 + 94)" + "(- 5 + 5)"
     b) >>> "(17 + 94)" * (-5 + 0)
     c) >>> "(17 + 94)" - "(- 5 - 5)"
     
-    Resposta: C
+    Resposta: C.
 
 9. Qual das opções abaixo causa um
     ZeroDivisionError?
@@ -57,12 +57,207 @@
     b) >>> (15 + 93) / (- 5 + 2)
     c) >>> (16 + 94) / (- 3 + 3)
     
-    Resposta: C
+    Resposta: C.
 
 10. Qual das opções abaixo causa um
     ZeroDivisionError?
     a) >>> (14 + 92) / (- 3 + 2)
     b) >>> (15 + 93) / (- 5 + 2)
     c) >>> (16 + 94) / (- 3 + 3)
+
+    Resposta: C.
+
+11. Complete o espaço em branco com a saída do código abaixo.
+    >>> 1 + 2 + 3 + 4.0 + 5
+    ______
+    
+    Resposta: 15.0
+
+12. Complete o espaço em branco para o código ser correto.
+    >>> (1 + ___ ) ** 2
+    16
+    
+    Resposta: 3.
+
+13. Complete o espaço em branco com a saída do código abaixo.
+    >>> 7 % (5 // 2)
+    ___
+    
+    Resposta: 1.
+
+14. Complete o código para criar uma string contendo “Alô mundo”.
+    >>> “Alô _____________”
+    
+    Resposta: mundo.
+
+15. Complete o código para criar uma string contendo uma aspas dupla ( “ ).
+    >>> “ _______ ”
+    
+    Resposta: \".
+
+16. Preencha a parte que está faltando na saída.
+    “““Primeira linha
+    segunda linha”””
+    ‘Primeira linha _______ segunda linha’
+    
+    Resposta: \n.
+
+17. Qual é a saída deste código?
+    >>> print(‘print(“print”)’)
+    a) ‘print(“print”)’
+    b) print(“print”)
+    c) print(‘print(“print”)’)
+    d) uma mensagem de erro
+    
+    Resposta: B.
+
+18. Complete o espaço em branco para solicitar uma entrada do usuário.
+    >>> __________ (“Digite um número:”)
+    
+    Resposta: input.
+
+19. Complete com a string que está faltando.
+    >>> “Alô” + ‘ _________
+    ‘Alô mundo’
+    
+    Resposta: mundo’.
+
+20. Qual dos comandos abaixo produz um TypeError?
+    a) “um” + “2”
+    b) 3 + 4
+    c) ‘5’ + 6
+    d) “7” + ‘oito’
+    
+    Resposta: C.
+
+21. Qual a saída produzida por esse código?
+    >>> print(3 * ‘7’)
+    __________
+
+    Resposta: 777.
+
+22. Qual é a saída desde código?
+    >>> int(“3” + “4”)
+    __________
+    
+    Resposta: 34.
+
+23. Qual é a saída desde código?
+    >>> float(“210” * int(input(“Digite um número: ”)))
+    Digite um número: 2
+    a) 210210.0
+    b) “210210”
+    c) 420
+    d) “420.0”
+    
+    Resposta: A.
+
+24. Qual é a saída deste código?
+    >>> txt = “ovos”
+    >>> print(txt * 3)
+    a) txttxttxt
+    b) “txttxttxt”
+    c) ovosovosovos
+    
+    Resposta: C.
+
+25. Qual opção faz o código funcionar corretamente?
+    >>> x = 5
+    >>> y = _____
+    >>> print(x + y)
+    12
+    a) “7”
+    b) = 7
+    c) 7
+    
+    Resposta: C.
+
+26. Qual das opções é um nome de variável válida em Python?
+    a) um nome de variavel
+    b) UM_NOME_DE_VARIAVEL
+    c) um-nome-de-variavel
+    d) 1_nome
+    
+    Resposta: C.
+
+27. Qual é a saída desde código?
+    >>> txt = 2
+    >>> ovos = 3
+    >>> del txt
+    >>> ovos = 4
+    >>> txt = 5
+    >>> print(txt * ovos)
+    ________
+    
+    Resposta: 20.
+
+28. Qual é a saída do código abaixo?
+    >>> x = 4
+    >>> x *= 3
+    >>> print(x)
+    ________
+    
+    Resposta: 12.
+
+29. Qual é a saída do código abaixo?
+    >>> x = “a”
+    >>> x *= 3
+    >>> print(x)
+    ________
+    
+    Resposta: aaa.
+
+30. Quais linhas são executadas quando um script Python está executando?
+    a) a primeira linha apenas
+    b) as primeiras 100 linhas
+    c) todas as linhas
+    d) todas linhas de funções
+    
+    Resposta: D.
+
+31. Qual a saída do código abaixo?
+    >>> txt = “7”
+    >>> txt = txt + “0”
+    >>> ovos = int(txt) + 3
+    >>> print(float(ovos))
+    a) 703
+    b) 10.0
+    c) 73.0
+    d) 10
+    
+    Resposta: C.
+
+32. Qual a saída do código abaixo?
+    >>> palavra = input(“Digite uma palavra: ”)
+    Digite uma palavra: queijo
+    >>> print(‘compre ’ + palavra)
+    a) ‘comprequeijo’
+    b) compre queijo
+    c) “compre queijo”
+
+    Resposta: B.
+
+33. Qual a saída do código abaixo?
+    >>> x = 5
+    >>> y = x + 3
+    >>> y = int(str(y) + “2”)
+    >>> print(y)
+    ________
+
+    Resposta: 82.
+
+34. Qual é a principal característica da sintaxe de blocos em Python?
+    a) Uso de chaves {} para delimitar blocos.
+    b) Uso de parênteses () para delimitar blocos.
+    c) Uso de identação para delimitar blocos.
+    d) Uso de ponto e vírgula ; para delimitar blocos.
+
+    Resposta: C.
+
+35. O que faz a função print() em Python?
+    a) Lê uma entrada do usuário.
+    b) Armazena dados em um arquivo.
+    c) Exibe uma mensagem ou o valor de uma variável na saída padrão.
+    d) Calcula expressões matemáticas.
 
     Resposta: C.
