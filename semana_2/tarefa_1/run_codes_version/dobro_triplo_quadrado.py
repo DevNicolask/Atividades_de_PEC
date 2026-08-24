@@ -1,6 +1,6 @@
 """Crie um programa em que o usuário insira um número inteiro X e você devolva o dobro, triplo e o quadrado de X. """
 
-numero = int(input('Digite um número: '))
+numero = float(input())
 dobro = numero * 2
 triplo = numero * 3
 quadrado = numero**2

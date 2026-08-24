@@ -1,7 +1,8 @@
 """Um mago precisa misturar duas substâncias para criar uma poção. Peça ao usuário os dois volumes (em ml) e exiba 
 o total da poção."""
 
-pocao_1 = float(input('Quantos ml da primeira poção? '))
-pocao_2 = float(input('Quantos ml da segunda substância? '))
+pocao_1 = float(input())
+pocao_2 = float(input())
 volume_total = pocao_1 + pocao_2
-print(f'O volume total da poção é {volume_total}')
+
+print(volume_total)
