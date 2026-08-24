@@ -42,7 +42,7 @@
     >>> ( ___ 5 - 1) * 3
     -18
 
-    Resposta: ( 12 - 5 - 1) * 3.
+    Resposta: ( 0 - 5 - 1) * 3 ou ( 10 + 5 - 1) * 3.
 
 8. Qual das opções abaixo causa um TypeError?
     a) >>> "(17 + 94)" + "(- 5 + 5)"
@@ -178,7 +178,7 @@
     c) um-nome-de-variavel
     d) 1_nome
     
-    Resposta: C.
+    Resposta: B.
 
 27. Qual é a saída desde código?
     >>> txt = 2
@@ -213,7 +213,7 @@
     c) todas as linhas
     d) todas linhas de funções
     
-    Resposta: D.
+    Resposta: C.
 
 31. Qual a saída do código abaixo?
     >>> txt = “7”
