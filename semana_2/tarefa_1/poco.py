@@ -2,6 +2,8 @@
 inserir o valor encontrado no poço. Agora calcule quantas moedas de R$0,25 somam o valor no poço sem 
 ultrapassar o total encontrado."""
 
-valor_encontrado_no_poco = int(input())
+valor_encontrado_no_poco = float(input())
 
-print(valor_encontrado_no_poco/4)
+quantidade_moedas = valor_encontrado_no_poco // 0.25
+
+print(int(quantidade_moedas))
