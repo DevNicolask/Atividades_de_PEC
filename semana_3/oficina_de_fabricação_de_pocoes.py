@@ -8,9 +8,14 @@ ingrediente e seus respectivos preços. Finalmente, o programa deve mostrar o cu
 Por exemplo, se a porção tem 2 Pó de Lua Estelar, 3 Essência de Dragão e 1 Lágrima de Fênix o custo total será:
 (2 * 5) + (3 * 3) + (1 * 8) = 27 (o custo total será de 27 moedas de ouro)"""
 
-po_de_lua_estelar = int(input())
-essencia_de_dragao = int(input())
-lagrimas_de_fenix = int(input())
-custo_total = (po_de_lua_estelar * 5) + (essencia_de_dragao * 3) + (lagrimas_de_fenix * 8)
+po_de_lua_estelar = int(input("Digite a quantidade de Pó de Lua Estelar: "))
+essencia_de_dragao = int(input("Digite a quantidade de Essência de Dragão: "))
+lagrimas_de_fenix = int(input("Digite a quantidade de Lágrimas de Fênix: "))
 
-print(custo_total)
+custo_total = (
+    (po_de_lua_estelar * 5)
+    + (essencia_de_dragao * 3)
+    + (lagrimas_de_fenix * 8)
+)
+
+print(f"O custo total da poção é {custo_total} moedas de ouro.")
