@@ -1,4 +1,5 @@
 """Escreva um programa que leia uma quantidade de minutos e mostre a quantidade de horas e minutos equivalente."""
+
 minutos_totais = int(input("Digite a quantidade total de minutos: "))
 
 horas = minutos_totais // 60
