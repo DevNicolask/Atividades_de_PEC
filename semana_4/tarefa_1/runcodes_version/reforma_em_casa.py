@@ -6,12 +6,12 @@ Volume da sala: largura * comprimento * altura
 
 Área das paredes da sala: 2 * altura * largura + 2 * altura * comprimento
 """
-altura = float(input("Insira a altura da casa: "))
-comprimento = float(input("Insira o comprimento da casa: "))
-largura = float(input("Insira a largura da casa: "))
+altura = float(input())
+comprimento = float(input())
+largura = float(input())
 area_do_piso = largura * comprimento
 volume_da_sala = largura * comprimento * altura
 area_das_paredes = 2 * altura * largura + 2 * altura * comprimento
-print(f'A área do piso da casa é {area_do_piso}')
-print(f'O volume da sala dessa casa é {volume_da_sala}')
-print(f'A área total das paredes dessa sala é {area_das_paredes}')
+print(area_do_piso)
+print(volume_da_sala)
+print(area_das_paredes)

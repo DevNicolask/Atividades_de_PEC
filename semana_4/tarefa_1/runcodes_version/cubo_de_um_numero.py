@@ -1,5 +1,5 @@
 """Escreva um programa que leia um número inteiro “x” e escreva o valor desse número elevado ao cubo."""
 
-numero = float(input("Digite um número: "))
+numero = float(input())
 
-print(f"O cubo desse número é {numero**3}")
+print(numero**3)
