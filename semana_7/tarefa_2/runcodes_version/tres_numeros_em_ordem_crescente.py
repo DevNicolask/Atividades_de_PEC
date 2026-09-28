@@ -15,7 +15,10 @@ def main():
     numero2 = int(input())
     numero3 = int(input())
 
-    print(f'{ordem_crescente(numero1, numero2, numero3)}')
+    numeros_ordenados = ordem_crescente(numero1, numero2, numero3)
+    print(numeros_ordenados[0])
+    print(numeros_ordenados[1])
+    print(numeros_ordenados[2])
 
 if __name__ == '__main__':
     main()
