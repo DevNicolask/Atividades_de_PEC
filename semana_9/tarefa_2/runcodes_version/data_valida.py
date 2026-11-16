@@ -1,4 +1,3 @@
-
 """
 Escreva um programa que leia uma data no formato DDMMAAAA e informe se é uma data válida.
 

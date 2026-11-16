@@ -1,4 +1,3 @@
-
 """
 Um sacolão está vendendo frutas com a seguinte tabela de preços:
 

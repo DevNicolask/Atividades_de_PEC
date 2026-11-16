@@ -1,5 +1,4 @@
 """
-Prazo de Entrega: 31/12/2026 12:00:00 Aberto
 Faça 5 perguntas para uma pessoa sobre um crime. As perguntas são:
 
 a) "Telefonou para a vítima?"
