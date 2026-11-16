@@ -1,3 +1,4 @@
+
 """
 Escreva um programa que leia um número e exiba o dia correspondente da semana. (1-domingo, 2-segunda-feira, 3-terça-feira etc.), se digitar outro valor deve aparecer “valor inválido”.
 """
@@ -15,8 +16,9 @@ def dia_da_semana(num):
         return "quinta-feira"
     elif num == 6:
         return "sexta-feira"
-    else:
+    elif num == 7:
         return "sábado"
+
 
 def main():
     numero = int(input())
@@ -25,6 +27,7 @@ def main():
         print(dia_da_semana(numero))
     else:
         print("valor inválido")
+
 
 if __name__ == '__main__':
     main()

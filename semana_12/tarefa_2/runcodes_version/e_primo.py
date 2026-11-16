@@ -1,0 +1,26 @@
+"""
+Um número é, por definição, primo se ele não tem divisores, exceto 1 e ele próprio. Escreva um programa que leia um número e determine se ele é ou não primo.
+"""
+
+def verificar_primo(numero):
+    if numero < 2:
+        return False
+
+    for i in range(2, numero):
+        if numero % i == 0:
+            return False
+
+    return True
+
+
+def main():
+    numero = int(input())
+
+    if verificar_primo(numero):
+        print('primo')
+    else:
+        print('não é primo')
+
+
+if __name__ == '__main__':
+    main()
