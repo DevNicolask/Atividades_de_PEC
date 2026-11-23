@@ -1,13 +1,11 @@
 """
-Leia um número n e considere uma lista com n posições.
+Escreva um programa que leia um número n. Considere uma lista com n posições, e então: 
 
-a) Leia valores reais e imprima a lista na ordem inversa,
-considerando até 4 casas decimais.
+a) preencha com valores reais lidos pelo teclado e imprima na ordem inversa. Considere até 4 (quatro) casas decimais.
 
-b) Leia n notas, imprima as notas e a média,
-considerando 1 casa decimal.
+b) preencha com n notas lidas pelo teclado e imprima as notas e a média na tela. Considere 1 (uma) casa decimal.
 
-c) Leia n letras, conte as vogais e imprima as consoantes.
+c) preencha com n letras lidas pelo teclado e imprima quantas vogais foram lidas. Imprima as consoantes.
 """
 
 def main():
@@ -16,14 +14,17 @@ def main():
     # A) Valores reais na ordem inversa
     valores = [float(input()) for _ in range(n)]
     valores.reverse()
-    print([round(valor, 4) for valor in valores])
+    print([] if n == 0 else [round(valor, 4) for valor in valores])
 
     # B) Notas e média
     notas = [float(input()) for _ in range(n)]
-    media = sum(notas) / n
-
     print([round(nota, 1) for nota in notas])
-    print(f"{media:.1f}")
+    if n != 0:
+        media = sum(notas) / n
+
+        print(f"{media:.1f}")
+    else:
+        print("SEM NOTAS")
 
     # C) Contagem de vogais e impressão das consoantes
     letras = [input().strip() for _ in range(n)]
