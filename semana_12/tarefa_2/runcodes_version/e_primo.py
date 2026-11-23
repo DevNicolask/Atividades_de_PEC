@@ -16,10 +16,7 @@ def verificar_primo(numero):
 def main():
     numero = int(input())
 
-    if verificar_primo(numero):
-        print('primo')
-    else:
-        print('não é primo')
+    print(verificar_primo(numero))
 
 
 if __name__ == '__main__':

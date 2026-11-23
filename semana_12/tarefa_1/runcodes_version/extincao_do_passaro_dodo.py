@@ -8,11 +8,11 @@ from math import ceil
 
 
 def calcular_nascimentos(populacao):
-    return int(populacao * 0.01)
+    return float(populacao * 0.01)
 
 
 def calcular_mortes(populacao):
-    return int(populacao * 0.06)
+    return float(populacao * 0.06)
 
 
 def calcular_populacao(populacao, nascimentos, mortes):
@@ -22,18 +22,21 @@ def calcular_populacao(populacao, nascimentos, mortes):
 def simular_populacao(populacao):
     populacao_original = populacao
     limite = populacao_original * 0.10
+    ano = 1600
 
     while populacao >= limite:
+        
         nascimentos = calcular_nascimentos(populacao)
         mortes = calcular_mortes(populacao)
 
         populacao = calcular_populacao(populacao, nascimentos, mortes)
 
-        print(f'{nascimentos}, {mortes}, {populacao}')
+        print(f'{ano},{round(nascimentos)},{round(mortes)},{round(populacao)}')
+        ano += 1
 
 
 def main():
-    populacao = int(input())
+    populacao = float(input())
 
     simular_populacao(populacao)
 
